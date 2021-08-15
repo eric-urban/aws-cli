@@ -68,7 +68,7 @@ Below is an example of how you can use git to create a feature branch. First, ma
     # Now add your commits for your features.
     $ git add path/to/my/files
 
-    # Make sure our commit message matches format described in the
+    # Make sure your commit message matches format described in the
     # previous section.
     $ git commit -m "Add support for foo"
 

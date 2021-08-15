@@ -62,18 +62,18 @@ Below is an example of how you can use git to create a feature branch. First, ma
     $ git fetch upstream
     $ git merge upstream/develop
 
-    # Now to create a feature branch:
+    # Create a feature branch:
     $ git checkout -b my-branch-name
 
-    # Now add your commits for your features.
+    # Add your commits for your features.
     $ git add path/to/my/files
 
-    # Make sure our commit message matches format described in the
+    # Make sure your commit message matches format described in the
     # previous section.
     $ git commit -m "Add support for foo"
 
-    # If we want to sync with the latest upstream changes before
-    # sending our pull request we can run:
+    # If you want to sync with the latest upstream changes before
+    # sending the pull request you can run:
     $ git fetch upstream
     $ git rebase upstream/develop
 
